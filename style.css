@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap");
+:root {
+  --bgcolor: #ffffff;
+  --color: #00000080;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Caesar Dressing", system-ui;
+  text-align: center;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bgcolor);
+  position: relative;
+}
+
+#hex,
+#rgb {
+  font-size: 3rem;
+  color: var(--color);
+  padding: 2rem 3rem;
+  margin: 0.5rem;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.2s, color 0.2s;
+  border-radius: 8px;
+  user-select: none;
+  &:hover {
+    background-color: var(--color);
+    color: var(--bgcolor);
+    cursor: copy;
+  }
+}
