@@ -1,6 +1,6 @@
 # Random Color Generator
 
-A web app that generates random colors, displays them in HEX and RGB formats, and allows one-click copying of either value.
+A website that generates random colors, displays them in HEX and RGB formats, and allows one-click copying of either value.
 
 🌐 **Live Demo:** [https://random-color-generator-orcin-alpha.vercel.app/](https://random-color-generator-orcin-alpha.vercel.app/)
 
